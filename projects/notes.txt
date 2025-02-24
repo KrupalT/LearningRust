@@ -1,0 +1,24 @@
+Cargo is Rust's build system and package manager.
+
+Cargo can hangle lot of tasks like building code to downloading libaries and also building dependecies.
+
+Cargo is preinstalled with Rust
+
+$ cargo --version
+
+====================================================
+
+Creating cargo project
+$ cargo new hello_cargo --bin
+$ cd hello_cargo
+
+$ tree
+$ cargo build
+$ ./target/debug/hello_cargo
+
+cargo run
+cargo clean
+cargo check
+cargo help
+====================================================
+
